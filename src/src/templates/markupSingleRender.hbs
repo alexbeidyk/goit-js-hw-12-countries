@@ -1,0 +1,25 @@
+{{#each this}}
+<li class="text-center row">
+        <h1 class="h1 text-center col-12">{{name}}</h1>  
+        <div class="d-flex flex-row-reverse text-left col-6">
+        <div class="d-none d-xl-flex flex-column justify-content-center col-6">
+        <p><b>Capital: </b>{{capital}}</p>
+        <p><b>Population: </b>{{population}}</p>
+        <b>Languages:</b>    
+            {{#each languages}}    
+        <p>{{this.name}}</p>
+            {{/each}}
+        </div>
+        <div class="d-xl-flex flex-column justify-content-center col-12">
+        <p><b>Capital: </b>{{capital}}</p>
+        <p><b>Population: </b>{{population}}</p>
+        <b>Languages:</b>
+            {{#each languages}}    
+        <p>{{this.name}}</p>
+            {{/each}}
+        </div>
+        </div>
+        <div class="text-left col-6 d-none d-xl-block"><img class="col-6" src="{{flag}}" alt="{{name}}"></div>
+        <div class="text-left col-6 d-xl-none"><img class="col-12" src="{{flag}}" alt="{{name}}"></div>
+</li>
+{{/each}}
