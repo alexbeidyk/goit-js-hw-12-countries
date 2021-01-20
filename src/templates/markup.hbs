@@ -1,0 +1,18 @@
+{{#each this}}
+<li class="col">
+    <div class="card shadow-sm">
+        <div class="card_img">
+            <img src="{{webformatURL}}" alt="" class="img-thumbnail"/>
+        </div>
+            <div class="card-body d-flex justify-content-between align-items-center">
+                <p class="stats-item"> <i class="material-icons">thumb_up</i> {{likes}}</p>
+                <p class="stats-item"> <i class="material-icons">visibility</i> {{views}}</p>
+                <p class="stats-item"> <i class="material-icons">comment</i> {{comments}}</p>
+                <p class="stats-item"> <i class="material-icons">cloud_download</i> {{downloads}}</p>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-sm btn-outline-secondary" data-source="{{largeImageURL}}"> View </button>
+            </div>
+    </div>
+ </li>
+{{/each}}

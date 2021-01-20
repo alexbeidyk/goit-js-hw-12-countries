@@ -1,8 +1,12 @@
 import './styles.css';
-import './js/refs.js';
-import './js/fetchCountries.js';
+import './js/apiService';
 import './js/markup.js';
+import './js/refs';
+import './js/finalRender';
+import './js/fullScreenView';
 import './js/pnotify';
+import 'basiclightbox/dist/basicLightbox.min.css';
+import 'material-design-icons/iconfont/material-icons.css';
 import '@pnotify/core/dist/PNotify.css';
 import '@pnotify/mobile/dist/PNotifyMobile.css';
 import '@pnotify/core/dist/BrightTheme.css';

@@ -14,8 +14,8 @@ const myStack = new Stack({
   firstpos1: 100,
   firstpos2: 50,
   maxStrategy: 'close',
-  //   positioned: false,
 });
+
 defaults.mode = 'light';
 defaults.delay = 2000;
 defaults.stack = myStack;
